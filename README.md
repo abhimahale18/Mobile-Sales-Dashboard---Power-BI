@@ -22,6 +22,7 @@ Understanding customer purchasing behavior and payment preferences.
 | Average Selling Price | 40.11K |
 
 📄 Dashboard Pages
+
 1️⃣ Dashboard Overview
 
 Provides a high-level summary of business performance including:
@@ -35,11 +36,13 @@ Payment method analysis.
 Sales by weekday analysis.
 
 2️⃣ MTD Report
+
 Focuses on short-term performance monitoring:
 
 Month-to-Date sales trends.
 Daily sales analysis.
 Drill-down capability using Year → Quarter → Month → Day hierarchy.
+
 3️⃣ Same Period Last Year Analysis
 
 Enables historical comparison using Power BI Time Intelligence functions:
@@ -57,6 +60,7 @@ Time Intelligence Functions
 
 
 📂 Data Model
+
 The project follows a Star Schema design:
 
 Fact Table
@@ -69,6 +73,7 @@ Relationship:
 Custom_Calendar[Date] → Sales_data[Date]
 
 📈 DAX Measures Used
+
 Total Sales = SUM(Sales_data[Total Sales])
 
 Total Quantity = SUM(Sales_data[Quantity])
@@ -90,6 +95,7 @@ CALCULATE(
 )
 
 🔍 Key Insights
+
 The business generated 769M revenue from approximately 19K mobile units sold.
 Sales are distributed across multiple cities, highlighting strong geographical coverage.
 Mobile brands such as Apple, Samsung, OnePlus, Vivo, and Xiaomi contribute significantly to total revenue.
@@ -98,6 +104,7 @@ Customer ratings show that most customers reported a Good experience.
 Monthly sales trends reveal seasonal fluctuations that can support forecasting and inventory planning.
 
 💡 Business Impact
+
 This dashboard helps businesses to:
 
 Monitor sales performance in real time.
