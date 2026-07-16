@@ -112,3 +112,12 @@ Identify top-performing products and locations.
 Improve inventory management.
 Analyze customer buying patterns.
 Support strategic business decisions using historical comparisons.
+
+
+👨‍💻 Author
+
+Abhishek Mahale
+
+⭐ If you found this project useful, consider giving it a star!
+
+⭐ Star this repository if you like the project.
